@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>El Sauce</title>
+        <link rel="icon" href="Img-productos/favicon.ico" type="image/x-icon">
+        <link rel="Stylesheet" href="principal.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    </head>
+    <body>
+        
+        <div id="contenedor">
+            <aside>
+        <header>
+            <h1 class="logo"><img src="Img-productos/Logo-empresa.png" width="90%"></h1>
+        </header>
+            <nav>
+                <ul class="menu">
+                    <li><button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-caret-right-fill"></i>Todos los productos</button></li>
+                    <li><button id="aromatizantes" class="boton-menu boton-categoria"><i class="bi bi-caret-right"></i>Aromatizantes</button></li>
+                    <li><button id="Lamparas" class="boton-menu boton-categoria"><i class="bi bi-caret-right"></i>Fuentes y lamparas</button></li>
+                    <li><a class="boton-menu boton-carro" href="carro.html"><i class="bi bi-cart-plus"></i>Carro<span id="numero" class="numero">0</span></a></li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© 2023 El Sauce</p>
+            </footer>
+            </aside>
+            <main>
+        <h2 id="titulo-principal" class="titulo-principal">Todos los productos</h2>
+        <div id="contenedor-productos" class="contenedor-productos">
+
+        </div>
+            </main>
+
+
+        <script src="principal.js" defer></script>
+    </body>
+</html>

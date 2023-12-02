@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Sauce</title>
+    <link rel="icon" href="Img-productos/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="principal.css">
+</head>
+<body>
+            
+    <div id="contenedor">
+        <aside>
+    <header>
+        <h1 class="logo"><img src="Img-productos/Logo-empresa.png" width="90%"></h1>
+    </header>
+        <nav>
+            <ul class="menu">
+                <li><a class="boton-menu boton-regresar" href="index.html"><i class="bi bi-bag"></i>Regresar a la tienda</a></li>
+                <li><a class="boton-menu boton-carro active" href="carro.html"><i class="bi bi-cart-plus"></i>Carro</a></li>
+            </ul>
+        </nav>
+        <footer>
+            <p class="texto-footer">© 2023 El Sauce</p>
+        </footer>
+        </aside>
+        <main>
+    <h2 class="titulo-principal">Tus Productos</h2>
+    <div class="contenedor-carro">
+        <p id="contenedor-carro-vacio" class="carro-vacio">No has añadido productos<i class="bi bi-heartbreak"></i></p>
+        <div id="contenedor-carro-productos" class="carro-productos">
+
+        </div>
+        <div id="contenedor-carro-acciones" class="carro-acciones">
+            <div class="carro-acciones-izquierda">
+                <button id="carro-acciones-vaciar" class="carro-acciones-vaciar">Vaciar carro</button>
+            </div>
+            <div class="carro-acciones-derecha">
+                <div class="carro-acciones-total">
+                    <p>Total:</p>
+                    <p id="Total"> PYG 50000</p>
+                </div>
+                <button id="carro-acciones-comprar" class="carro-acciones-comprar">Pagar</button>
+            </div>
+        </div>
+        <p id="contenedor-carro-comprado" class="carro-comprado disabled">Muchas gracias por su compra<i class="bi bi-heart"></i></p>
+
+    </div>
+</divv>
+        </main>
+
+
+    <script src="carro.js"></script>
+</body>
+</html>
